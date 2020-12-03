@@ -1,6 +1,7 @@
 # adventOfCode
 
-  --- Day 1: Report Repair ---
+# --- Day 1: Report Repair ---
+
 After saving Christmas five years in a row, you've decided to take a vacation at a nice resort on a tropical island. Surely, Christmas will go on without you.
 
 The tropical island has its own currency and is entirely cash-only. The gold coins used there have a little picture of a starfish; the locals just call them stars. None of the currency exchanges seem to have heard of them, but somehow, you'll need to find fifty of these coins by the time you arrive so you can pay the deposit on your room.
@@ -34,7 +35,7 @@ Using the above example again, the three entries that sum to 2020 are 979, 366, 
 
 In your expense report, what is the product of the three entries that sum to 2020?
 
---- Day 2: Password Philosophy ---
+# --- Day 2: Password Philosophy ---
 Your flight departs in a few days from the coastal airport; the easiest way down to the coast from here is via toboggan.
 
 The shopkeeper at the North Pole Toboggan Rental Shop is having a bad day. "Something's wrong with our computers; we can't log in!" You ask if you can take a look.
@@ -70,7 +71,7 @@ Given the same example list from above:
 2-9 c: ccccccccc is invalid: both position 2 and position 9 contain c.
 How many passwords are valid according to the new interpretation of the policies?
 
---- Day 3: Toboggan Trajectory ---
+# --- Day 3: Toboggan Trajectory ---
 With the toboggan login problems resolved, you set off toward the airport. While travel by toboggan might be easy, it's certainly not safe: there's very minimal steering and the area is covered in trees. You'll need to see which angles will take you near the fewest trees.
 
 Due to the local geology, trees in this area only grow on exact integer coordinates in a grid. You make a map (your puzzle input) of the open squares (.) and trees (#) you can see. For example:

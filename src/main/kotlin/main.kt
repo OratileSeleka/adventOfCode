@@ -1,7 +1,21 @@
 import java.io.File
 
 fun main(args: Array<String>) {
-    day2One()
+    val inputLines = readFileLineByLine("C:\\Users\\oratile.seleka\\Desktop\\adventOfCode\\src\\main\\day3_input.txt")
+    val day3 = Day3(inputLines)
+    println("Number Of Trees: ${day3.firstChallenge(3, 1)}")
+    println(" ${day3.firstChallenge(1, 1)}")
+    println(" ${day3.firstChallenge(3, 1)}")
+    println(" ${day3.firstChallenge(5, 1)}")
+    println(" ${day3.firstChallenge(7, 1)}")
+    println(" ${day3.firstChallenge(1, 2)}")
+    val product = day3.firstChallenge(1, 1) *
+            day3.firstChallenge(3, 1) *
+            day3.firstChallenge(5, 1) *
+            day3.firstChallenge(7, 1) *
+            day3.firstChallenge(1, 2)
+
+    println("Product: $product")
 }
 
 fun day1() {

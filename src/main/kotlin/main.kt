@@ -1,9 +1,9 @@
 import java.io.File
 
 fun main(args: Array<String>) {
-    val inputLines = readFileLineByLine("C:\\Users\\oratile.seleka\\Desktop\\adventOfCode\\src\\main\\day5_input.txt")
-    val day5 = Day5(inputLines)
-    day5.findMissingID()
+    val inputLines = readFileLineByLine("C:\\Users\\oratile.seleka\\Desktop\\adventOfCode\\src\\main\\day6_input.txt")
+    val day6 = Day6(inputLines)
+    println("Answer is: ${day6.calculateSecond()}")
 }
 
 fun day1() {

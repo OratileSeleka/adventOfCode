@@ -21,7 +21,7 @@ class Day4(private val passports: List<String>) {
                 numberOfValidFields = 0
             }
         }
-        println("Total Number Of New Lines: $numberOfValidPassports")
+        println("Total Number Of Valid Passports: $numberOfValidPassports")
     }
 
     private fun validateField(key: FIELDS, value: String): Boolean {
